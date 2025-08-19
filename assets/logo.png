@@ -1,0 +1,80 @@
+<svg width="120" height="40" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <!-- Main gradient for logo -->
+    <linearGradient id="logoGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#0078ff;stop-opacity:1" />
+      <stop offset="50%" style="stop-color:#0066cc;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#004499;stop-opacity:1" />
+    </linearGradient>
+    
+    <!-- Text gradient -->
+    <linearGradient id="textGradient" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#1f2937;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#0066cc;stop-opacity:1" />
+    </linearGradient>
+    
+    <!-- Glow effect -->
+    <filter id="glow">
+      <feGaussianBlur stdDeviation="1" result="coloredBlur"/>
+      <feMerge> 
+        <feMergeNode in="coloredBlur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+    
+    <!-- Drop shadow -->
+    <filter id="dropshadow" x="-50%" y="-50%" width="200%" height="200%">
+      <feDropShadow dx="0" dy="2" stdDeviation="2" flood-color="#000000" flood-opacity="0.1"/>
+    </filter>
+  </defs>
+  
+  <!-- Logo Icon Container -->
+  <g transform="translate(2, 2)">
+    <!-- Outer ring -->
+    <circle cx="18" cy="18" r="17" fill="none" stroke="#0078ff" stroke-width="0.5" opacity="0.3"/>
+    
+    <!-- Main logo background -->
+    <circle cx="18" cy="18" r="15" fill="url(#logoGradient)" filter="url(#dropshadow)"/>
+    
+    <!-- Inner highlight -->
+    <circle cx="18" cy="18" r="14" fill="none" stroke="rgba(255,255,255,0.3)" stroke-width="1"/>
+    
+    <!-- Tech hexagon pattern -->
+    <g fill="none" stroke="#ffffff" stroke-width="1" opacity="0.6">
+      <polygon points="18,8 24,11 24,17 18,20 12,17 12,11"/>
+      <polygon points="18,12 21,13.5 21,16.5 18,18 15,16.5 15,13.5"/>
+    </g>
+    
+    <!-- Connection nodes -->
+    <g fill="#ffffff" opacity="0.8">
+      <circle cx="18" cy="11" r="1"/>
+      <circle cx="14" cy="15" r="1"/>
+      <circle cx="22" cy="15" r="1"/>
+      <circle cx="18" cy="19" r="1"/>
+    </g>
+    
+    <!-- Central "N" with modern styling -->
+    <text x="18" y="23" font-family="Arial, sans-serif" font-size="12" font-weight="900" fill="white" text-anchor="middle" filter="url(#glow)">N</text>
+    
+    <!-- Tech accent elements -->
+    <g fill="#10b981" opacity="0.7">
+      <rect x="26" y="8" width="1.5" height="1.5" rx="0.3"/>
+      <rect x="8" y="26" width="1.5" height="1.5" rx="0.3"/>
+    </g>
+  </g>
+  
+  <!-- Company Text -->
+  <g transform="translate(42, 0)">
+    <!-- Main company name -->
+    <text x="0" y="18" font-family="Arial, sans-serif" font-size="14" font-weight="800" fill="url(#textGradient)">NextGen</text>
+    <text x="0" y="32" font-family="Arial, sans-serif" font-size="14" font-weight="800" fill="url(#textGradient)">ITHub</text>
+    
+    <!-- Tagline -->
+    <text x="62" y="18" font-family="Arial, sans-serif" font-size="6" font-weight="400" fill="#6b7280" opacity="0.8">INNOVATIVE</text>
+    <text x="62" y="26" font-family="Arial, sans-serif" font-size="6" font-weight="400" fill="#6b7280" opacity="0.8">IT SOLUTIONS</text>
+    
+    <!-- Tech accent line -->
+    <path d="M60 14 L75 14" stroke="#10b981" stroke-width="1" opacity="0.6"/>
+    <path d="M60 30 L75 30" stroke="#0066cc" stroke-width="1" opacity="0.6"/>
+  </g>
+</svg>
