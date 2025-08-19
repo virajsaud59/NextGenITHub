@@ -97,7 +97,7 @@
   <g transform="translate(65, 10)">
     <!-- Main company name - First line -->
     <text x="0" y="20" font-family="Arial, sans-serif" font-size="18" font-weight="800" 
-          fill="url(#textGradient)" filter="url(#textGlow)">NextGen</text>
+          fill="url(#textGradient)" filter="url(#textGlow)">NexGen</text>
     
     <!-- Main company name - Second line -->
     <text x="0" y="38" font-family="Arial, sans-serif" font-size="18" font-weight="800" 

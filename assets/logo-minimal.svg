@@ -61,9 +61,9 @@
   
   <!-- Clean Typography -->
   <g transform="translate(40, 5)">
-    <!-- NextGen -->
+    <!-- NexGen -->
     <text x="0" y="18" font-family="'SF Pro Display', 'Segoe UI', sans-serif" font-size="16" font-weight="700" 
-          fill="url(#textPremium)">NextGen</text>
+          fill="url(#textPremium)">NexGen</text>
     
     <!-- ITHub -->
     <text x="70" y="18" font-family="'SF Pro Display', 'Segoe UI', sans-serif" font-size="16" font-weight="300" 

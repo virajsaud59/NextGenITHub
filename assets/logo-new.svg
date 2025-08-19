@@ -84,9 +84,9 @@
   
   <!-- Company Text Section - Bigger and Clearer Typography -->
   <g transform="translate(70, 8)">
-    <!-- NextGen - Bigger and clearer -->
+    <!-- NexGen - Bigger and clearer -->
     <text x="0" y="28" font-family="'Segoe UI', Arial, sans-serif" font-size="26" font-weight="700" 
-          fill="url(#textGradientNew)" filter="url(#modernGlow)">NextGen</text>
+          fill="url(#textGradientNew)" filter="url(#modernGlow)">NexGen</text>
     
     <!-- ITHub - Consistent bigger sizing -->
     <text x="115" y="28" font-family="'Segoe UI', Arial, sans-serif" font-size="26" font-weight="300" 

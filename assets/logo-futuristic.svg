@@ -84,9 +84,9 @@
   
   <!-- Company Text - Ultra Modern -->
   <g transform="translate(50, 5)">
-    <!-- NextGen with modern font -->
+    <!-- NexGen with modern font -->
     <text x="0" y="20" font-family="'Inter', 'Segoe UI', sans-serif" font-size="18" font-weight="800" 
-          fill="url(#textFuture)" filter="url(#futurGlow)">NextGen</text>
+          fill="url(#textFuture)" filter="url(#futurGlow)">NexGen</text>
     
     <!-- ITHub with lighter weight -->
     <text x="80" y="20" font-family="'Inter', 'Segoe UI', sans-serif" font-size="18" font-weight="300" 
